@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 
 const app = express()
 
-const Album = require('./models/album')
+const Album = require('./models/album.js')
 
 const PORT = process.env.PORT || 3000;
 const url = 'mongodb+srv://api-music:music@cluster0.mwqh5.mongodb.net/api-music?retryWrites=true&w=majority'
